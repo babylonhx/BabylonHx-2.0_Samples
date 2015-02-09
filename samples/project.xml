@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<!-- NMML reference: https://gist.github.com/1763850 -->
+	
+	<!-- metadata, make sure 'package' is at least 3 segments (ie. com.mycompany.myproject) -->
+	<meta title="BabylonHx" package="com.satan.LovesBacon" version="1.0.0" company="SeaCloud9" />
+	
+	<!-- output -->
+	<app main="Main" file="BabylonHx" path="bin" />
+	
+	<window background="#000000" fps="60" />
+
+	<window allow-shaders="true" require-shaders="true" hardware="true" depth-buffer="true" stencil-buffer="true"   />
+	<window orientation="landscape" vsync="false" if="cpp" />
+	<!-- <haxeflag name="--macro Sample.set('key','wtf')" /> -->
+	<!-- classpath, haxe libs -->
+	<haxelib name="babylonhx" />
+	<source path="src" />
+	<haxelib name="openfl" />
+	
+	<!-- assets -->
+	<icon path="../Assets/openfl.svg" />
+	<assets path="../Assets/" rename="Assets" />
+	<assets path="../Assets/shaders/" rename="shaders" />
+	<assets path="assets/img" rename="img" />
+	<assets path="assets/models" rename="models" />
+	
+	<!-- optimize output
+	<haxeflag name="-dce full" /> -->
+	
+</project>
