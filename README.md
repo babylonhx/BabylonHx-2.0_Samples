@@ -29,7 +29,7 @@ BabylonHx Samples
 * ShadowTest
 
 
-Useage:
+Usage:
 
 1. haxelib babylonhx https://github.com/babylonhx/BabylonHx-2.0.git
 2. Download
